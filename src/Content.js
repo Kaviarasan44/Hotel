@@ -4,12 +4,12 @@ import burger from "./images/burger.jpg";
 
 const Content = () => {
   return (
-    <div>
+    <div id="Content">
       <div>
         <h2 id="head">Home</h2>
       </div>
       <div className="Homesection">
-        <div className="para1" id="Content">
+        <div className="para1" >
           <p className="firstmove">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
             omnis iste eum eaque sed, neque adipisci fugiat. Ullam a possimus
@@ -23,8 +23,17 @@ const Content = () => {
             fugiat.
           </p>
           <br />
-      <center><b><i><q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, deleniti!</q></i></b></center>
-      <br />
+          <center>
+            <b>
+              <i>
+                <q>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Delectus, deleniti!
+                </q>
+              </i>
+            </b>
+          </center>
+          <br />
           <p className="firstmove">
             Maxime dolorem ea eius eos soluta. Laudantium voluptates incidunt
             ipsa quia, tempora, tempore saepe officia porro nemo, rerum ratione
@@ -35,11 +44,19 @@ const Content = () => {
             id. Officia et debitis ipsa repudiandae reprehenderit? Deserunt
             mollitia dolorum corporis sed fugiat laudantium! Ullam, voluptatem
             consequuntur!
-            
           </p>
           <br />
-      <center><b><i><q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, deleniti!</q></i></b></center>
-      <br />
+          <center>
+            <b>
+              <i>
+                <q>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Delectus, deleniti!
+                </q>
+              </i>
+            </b>
+          </center>
+          <br />
           <p className="firstmove">
             Maxime dolorem ea eius eos soluta. Laudantium voluptates incidunt
             ipsa quia, tempora, tempore saepe officia porro nemo, rerum ratione

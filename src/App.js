@@ -3,6 +3,8 @@ import Header from "./Header";
 import Images from "./Images";
 import Content from "./Content";
 import About from "./About";
+import Contact from "./Contact";
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
     <Images/>
     <Content/>
     <About/>
-    
+    <Contact/>
+  
     </div>
   );
 }

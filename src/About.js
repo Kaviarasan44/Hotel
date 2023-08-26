@@ -1,12 +1,16 @@
 import React from "react";
 import "./Content.css";
+import tea from './images/tea.jpg';
 
 const About = () => {
   return (
-    <div>
+    <div id="About">
        <div><h2 id="head">About us</h2></div>
-    <div className="para2" id="About">
-      <div>
+    <div className="aboutsection">
+      <div >
+        <img src={tea} alt="tea" className="teaimage"/>
+      </div>
+      <div className="para2" >
       <p className="firstmove">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur,
         aspernatur laborum? Suscipit, facere. Odio mollitia, a voluptates dicta
