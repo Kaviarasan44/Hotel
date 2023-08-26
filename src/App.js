@@ -5,7 +5,6 @@ import Content from "./Content";
 import About from "./About";
 import Contact from "./Contact";
 
-
 function App() {
   return (
     <div className="App">
@@ -14,7 +13,6 @@ function App() {
     <Content/>
     <About/>
     <Contact/>
-  
     </div>
   );
 }

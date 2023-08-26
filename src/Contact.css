@@ -1,0 +1,29 @@
+.FormSection{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(78, 25, 25);
+   
+}
+.form{
+    margin:5px;
+    padding: 30px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: darkgray;
+    border-radius: 20px;
+
+}
+.input{
+    padding: 10px;
+    width: 400px;
+    border-color: brown;
+}
+.btn{
+    color: brown;
+    padding:5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
