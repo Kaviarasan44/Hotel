@@ -1,0 +1,12 @@
+.images{
+    margin: 20px auto;
+    width: 90%;
+    height: 500px;
+    animation:slide 20s infinite;
+}
+@keyframes slide {
+    25%{background-image: url(./images/dosa.jpg) ;}
+    50%{background-image: url(./images/chicken.jpg) ;}
+    75%{background-image: url(./images/Fish.jpg) ;}
+    100%{background-image: url(./images/gravy.jpg) ;}   
+}
