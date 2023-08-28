@@ -8,9 +8,9 @@ const Content = () => {
       <div>
         <h2 id="head">Home</h2>
       </div>
-      <div className="Homesection">
-        <div className="para1" >
-          <p className="firstmove">
+      <div className="homesection">
+        <div className="home_para">
+          <p className="para">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
             omnis iste eum eaque sed, neque adipisci fugiat. Ullam a possimus
             eaque exercitationem porro, aspernatur sequi. Soluta minima corporis
@@ -23,18 +23,14 @@ const Content = () => {
             fugiat.
           </p>
           <br />
-          <center>
-            <b>
-              <i>
-                <q>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Delectus, deleniti!
-                </q>
-              </i>
-            </b>
-          </center>
+
+          <q>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus,
+            deleniti!
+          </q>
+
           <br />
-          <p className="firstmove">
+          <p className="para">
             Maxime dolorem ea eius eos soluta. Laudantium voluptates incidunt
             ipsa quia, tempora, tempore saepe officia porro nemo, rerum ratione
             ipsum! Laboriosam animi nisi dicta voluptates! Expedita, earum. Quia
@@ -46,18 +42,14 @@ const Content = () => {
             consequuntur!
           </p>
           <br />
-          <center>
-            <b>
-              <i>
-                <q>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Delectus, deleniti!
-                </q>
-              </i>
-            </b>
-          </center>
+
+          <q>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus,
+            deleniti!
+          </q>
+
           <br />
-          <p className="firstmove">
+          <p className="para">
             Maxime dolorem ea eius eos soluta. Laudantium voluptates incidunt
             ipsa quia, tempora, tempore saepe officia porro nemo, rerum ratione
             ipsum! Laboriosam animi nisi dicta voluptates! Expedita, earum. Quia
@@ -74,7 +66,7 @@ const Content = () => {
             qui quaerat quia esse ea eaque sapiente.
           </p>
         </div>
-        <div className="section2">
+        <div className="burgerimage">
           <img src={burger} alt="burger" className="burger" />
         </div>
       </div>

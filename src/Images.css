@@ -1,23 +1,25 @@
 .images {
     margin: 3px auto;
-    width: 90%;
-    height: 500px;
-    background-image: url(./images/Fish.jpg);
-    animation: slide 20s infinite;
-    opacity: 0.9;
+    width: 95%;
+    height:550px;  
     border-radius: 10px; 
+    background-image: url(./images/dosa.jpg) ;
+    animation: slide 40s infinite;
+    animation-direction: reverse;
 }
 @keyframes slide {
+    0% {background-image: url(./images/Fish.jpg);}
     25%{background-image: url(./images/dosa.jpg) ;}
     50%{background-image: url(./images/chicken.jpg) ;}
     75%{background-image: url(./images/Fish.jpg) ;}
     100%{background-image: url(./images/gravy.jpg) ;}   
 }
-.slider_heading{
-    margin: 0px;
-    padding: 10px;
+.spl_txt{
+    padding: 1px;
     font-size: 50px;
-    color:rgb(79, 6, 6);
+    color:rgb(18, 1, 1);
     text-shadow: 2px 2px 3px rgb(31, 25, 25);
-    text-align: center;
+    display: flex;
+    height: 100vh;
+    align-items: center; 
 }

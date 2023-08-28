@@ -4,7 +4,7 @@ import './Images.css'
 const Images = () => {
   return (
     <div className='images'>
-      <p className="slider_heading">Our Dishes</p>
+      <p className="spl_txt">Our Special.!</p>
     </div>
   )
 }

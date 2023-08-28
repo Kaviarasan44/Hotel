@@ -11,13 +11,13 @@ q{
     font-weight: bold;
     text-align: center;
 }
-.homesection{
+.aboutsection{
     display: flex;
 }
-.home_para{
+.about_para{
     margin:5px;
     padding: 5px;
-    width: 60%;
+    width: 100%;
     text-align: justify;
     box-sizing: border-box;
 }
@@ -30,13 +30,10 @@ q{
     font-weight: 1000;
 }
 
-.burgerimage{
-    width: 40%;
-    padding: 10px;
-   
+.teaimage{
+    padding: 20px;
 }
-.burger{
+.tea{
     width: 100%;
-    margin: 10px;
-    border-radius:20px;
+    border-radius:10px;
 }

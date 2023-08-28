@@ -5,34 +5,31 @@
 .header{
     padding: 2px;
     text-align: center;
-    background-color: rgb(212, 212, 11);
-    font-size: 15px;
-    color: whitesmoke;
-    text-shadow: 2px 2px 2px black;
+    background-color: rgb(98, 98, 10);
+    color: rgb(246, 238, 238);
+    text-shadow: 2px 0px 2px rgb(237, 207, 40);
 }
-.h1_header{
+.h1header{
     font-size: 50px;
-    text-shadow:1px 1px 2px transparent gray
 }
 .headersub{
-    color: darkgreen;
+    color: rgb(6, 49, 6);
     text-shadow: none;
     font-size: 12px;
 }
 .navbar ul{
-    margin: 2px;
     padding: 5px;
+    font-size: 20px;
     display: flex;
     list-style: none;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: rgb(209, 163, 104);
 }
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(41, 20, 20);
 }
-
 .navbar ul li a:hover{
-    color: white;
-    background-color: grey;
+    color: rgb(240, 232, 232);
+    background-color: rgb(81, 71, 71);
 }
