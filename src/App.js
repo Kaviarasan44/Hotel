@@ -4,6 +4,7 @@ import Images from "./Images";
 import Content from "./Content";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Content/>
     <About/>
     <Contact/>
+    <Footer/>
     </div>
   );
 }
