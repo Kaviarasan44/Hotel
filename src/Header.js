@@ -3,19 +3,19 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div>
-      <div className='header'>
-        <h1 className='h1header'>Erode Amman Mess <span className='headersub'><sub>-Veg/Non-veg</sub></span></h1>
-      </div>
-      <div className='navbar'>
-        <ul>
-            <li><a href="#Content">Home</a></li>
-            <li><a href="#About">About us</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="#Contact">Contact us</a></li>
-            <li><a href="">Order Online</a></li>
+    <div className='container-fluid'>
+      <header className='' >
+        <h1 className='justify-content-center'>Erode Amman Mess <span><sub>-Veg/Non-veg</sub></span></h1>
+     
+      <nav  >
+        <ul className='nav nav-pills nav-fill'>
+            <li className='nav-item'><a className='nav-link' href="#Content">Home</a></li>
+            <li className='nav-item'><a className='nav-link' href="#About">About us</a></li>
+            <li className='nav-item'><a className='nav-link' href="#Contact">Contact us</a></li>
+            <li className='nav-item'><a className='nav-link' href="">Order Online</a></li>
         </ul>
-      </div>
+      </nav>
+      </header>
     </div>
   )
 }
